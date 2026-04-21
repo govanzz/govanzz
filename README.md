@@ -14,10 +14,10 @@
 <br />
 
 <a href="mailto:gautamgovan@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-gautamgovan%40gmail.com-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: gautamgovan@gmail.com" />
 </a>
 <a href="https://www.linkedin.com/in/gautamgovan-e">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-gautamgovan--e-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: gautamgovan-e" />
 </a>
 
 </div>
