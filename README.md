@@ -1,13 +1,13 @@
 <div align="center">
 
 <!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,50:1e3a8a,100:0f766e&text=Hi,%20I'm%20Gautam&fontColor=f8fafc&fontSize=42&fontAlignY=35&desc=AI%20%7C%20Analytics%20%7C%20Data%20Products%20%7C%20Automation&descAlignY=58&descSize=15" alt="Profile header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=185&color=0:0b1020,45:1d4ed8,100:0f766e&text=Hi,%20I'm%20Gautam&fontColor=f8fafc&fontSize=42&fontAlignY=34&desc=AI%20Agents%20%7C%20RAG%20Evaluation%20%7C%20Analytics%20Systems%20%7C%20Data%20Products&descAlignY=58&descSize=14" alt="Profile header" />
 
 <br />
 
 <!-- Identity Badges -->
 <img src="https://img.shields.io/badge/ROLE-AI%20%26%20Analytics%20Builder-2563eb?style=for-the-badge&labelColor=111827" alt="Role badge" />
-<img src="https://img.shields.io/badge/FOCUS-GenAI%20%7C%20RAG%20%7C%20Data%20Pipelines-f97316?style=for-the-badge&labelColor=111827" alt="Focus badge" />
+<img src="https://img.shields.io/badge/FOCUS-Agentic%20AI%20%7C%20RAG%20%7C%20ML%20Pipelines-f97316?style=for-the-badge&labelColor=111827" alt="Focus badge" />
 <img src="https://img.shields.io/badge/LOCATION-Singapore-10b981?style=for-the-badge&labelColor=111827" alt="Location badge" />
 
 <br />
@@ -26,9 +26,92 @@
 
 ## Executive Overview
 
-I build **AI and analytics solutions** that turn complex data into practical decision-support tools. My work spans **GenAI applications, RAG systems, data pipelines, business analytics, and automation**, with projects in credit risk analysis, legal evaluation systems, media intelligence, and prediction workflows.
+I build **AI and analytics systems** that turn messy documents, operational data, and business questions into usable decision-support products. My current work sits at the intersection of **GenAI applications, RAG evaluation, ML/data pipelines, visual analytics, and workflow automation**.
 
-I enjoy building end-to-end solutions using **Python, SQL, GCP, Streamlit, and modern data tooling**, from data extraction and processing to evaluation dashboards and production-ready applications. My focus is on creating systems that are **structured, scalable, and useful in real business settings**.
+I am especially interested in **AI agents for real work**: systems that can retrieve evidence, use tools, check their own outputs, and hand analysts a traceable result rather than a black-box answer. My repositories show that direction through legal RAG evaluation, OCR + LLM document processing, financial analytics, ML engineering, and applied data products.
+
+---
+
+## Current Direction
+
+<div align="center">
+
+| Building | Exploring | Improving |
+| --- | --- | --- |
+| LLM-powered analyst tools | Tool-using AI agents | Evaluation-driven GenAI workflows |
+| RAG evaluation dashboards | Agent memory, planning, and handoffs | Groundedness and hallucination checks |
+| Data products with Streamlit, Quarto, and Shiny | Human-in-the-loop automation | Production-ready ML and data pipelines |
+| Financial, legal, and operational analytics | Multi-step workflow orchestration | Clear business impact and explainability |
+
+</div>
+
+---
+
+## Featured Systems
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/govanzz/AI-credit-risk-analyzer">AI Credit Risk Analyzer</a></h3>
+      <p>AI-powered credit assessment app that extracts financial statements with OCR, standardizes fields with a local LLM, computes ratios, and presents analyst-friendly insights.</p>
+      <p>
+        <img src="https://img.shields.io/badge/OCR-111827?style=flat-square" alt="OCR" />
+        <img src="https://img.shields.io/badge/Ollama%20LLM-2563eb?style=flat-square" alt="Ollama LLM" />
+        <img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square" alt="Streamlit" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square" alt="Pandas" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/govanzz/legal-rag-evaluator">Legal RAG Evaluator</a></h3>
+      <p>Evaluation dashboard for comparing legal QA pipelines using LLM-as-a-judge scoring across correctness, completeness, groundedness, hallucination, and latency.</p>
+      <p>
+        <img src="https://img.shields.io/badge/RAG-0f766e?style=flat-square" alt="RAG" />
+        <img src="https://img.shields.io/badge/LLM%20Judge-f97316?style=flat-square" alt="LLM judge" />
+        <img src="https://img.shields.io/badge/Evals-7c3aed?style=flat-square" alt="Evals" />
+        <img src="https://img.shields.io/badge/Plotly-3f4f75?style=flat-square" alt="Plotly" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/govanzz/flight-delay-prediction-pipeline">Flight Delay Prediction Pipeline</a></h3>
+      <p>Machine learning engineering project with a medallion-style pipeline for flight operations and hourly weather data, plus baseline delay-risk scoring.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Bronze%20Silver%20Gold-111827?style=flat-square" alt="Bronze Silver Gold" />
+        <img src="https://img.shields.io/badge/PySpark-e25a1c?style=flat-square" alt="PySpark" />
+        <img src="https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square" alt="scikit-learn" />
+        <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square" alt="Docker" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/govanzz/AML-CS610-NYC-Property-LightGBM">NYC Property Valuation</a></h3>
+      <p>LightGBM regression project for residential property valuation, over/under-valuation analysis, feature engineering, and interpretability with SHAP.</p>
+      <p>
+        <img src="https://img.shields.io/badge/LightGBM-2563eb?style=flat-square" alt="LightGBM" />
+        <img src="https://img.shields.io/badge/SHAP-10b981?style=flat-square" alt="SHAP" />
+        <img src="https://img.shields.io/badge/Regression-f97316?style=flat-square" alt="Regression" />
+        <img src="https://img.shields.io/badge/Outlier%20Analysis-7c3aed?style=flat-square" alt="Outlier analysis" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Analytics And Product Work
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/govanzz/isss608-group10-project">COFINFAD Fintech Analytics</a></h3>
+      <p>Quarto and Shiny visual analytics project studying Colombian fintech customer behavior, segmentation, digital engagement, and satisfaction patterns.</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/govanzz/dsa-flashcards">DSA Flashcards</a></h3>
+      <p>Local Streamlit learning tool with GitHub import, spaced repetition, local SQLite storage, and a production path toward Postgres-backed multi-user use.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -41,81 +124,55 @@ I enjoy building end-to-end solutions using **Python, SQL, GCP, Streamlit, and m
 <br />
 <br />
 
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
 <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery" />
 <img src="https://img.shields.io/badge/Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Vertex AI" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-<img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+
+<br />
+<br />
+
+<img src="https://img.shields.io/badge/RAG-0f766e?style=for-the-badge" alt="RAG" />
+<img src="https://img.shields.io/badge/AI%20Agents-7c3aed?style=for-the-badge" alt="AI Agents" />
+<img src="https://img.shields.io/badge/LLM%20Evals-f97316?style=for-the-badge" alt="LLM Evals" />
+<img src="https://img.shields.io/badge/MLOps-111827?style=for-the-badge" alt="MLOps" />
+<img src="https://img.shields.io/badge/LightGBM-2563eb?style=for-the-badge" alt="LightGBM" />
+<img src="https://img.shields.io/badge/PySpark-e25a1c?style=for-the-badge" alt="PySpark" />
+<img src="https://img.shields.io/badge/Quarto-39729E?style=for-the-badge&logo=quarto&logoColor=white" alt="Quarto" />
 
 </div>
 
 ---
 
-## Featured Work
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3>AI Credit Risk Analyzer</h3>
-      <p>OCR and LLM-based financial document processing for faster credit analysis and ratio-driven insights.</p>
-      <p>
-        <img src="https://img.shields.io/badge/OCR-111827?style=flat-square" alt="OCR" />
-        <img src="https://img.shields.io/badge/LLM-2563eb?style=flat-square" alt="LLM" />
-        <img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square" alt="Streamlit" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3>Legal RAG Evaluator</h3>
-      <p>Evaluation dashboard for comparing legal QA pipelines using correctness, groundedness, latency, and hallucination metrics.</p>
-      <p>
-        <img src="https://img.shields.io/badge/RAG-0f766e?style=flat-square" alt="RAG" />
-        <img src="https://img.shields.io/badge/LLM%20Judge-f97316?style=flat-square" alt="LLM judge" />
-        <img src="https://img.shields.io/badge/Analytics-7c3aed?style=flat-square" alt="Analytics" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>Flight Delay Prediction Pipeline</h3>
-      <p>End-to-end data pipeline combining flight operations and weather observations for delay-risk scoring.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Pipeline-111827?style=flat-square" alt="Pipeline" />
-        <img src="https://img.shields.io/badge/PySpark-e25a1c?style=flat-square" alt="PySpark" />
-        <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square" alt="Docker" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3>NYC Property Valuation</h3>
-      <p>Property valuation and outlier analysis using feature engineering, model interpretation, and valuation insights.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Regression-2563eb?style=flat-square" alt="Regression" />
-        <img src="https://img.shields.io/badge/SHAP-10b981?style=flat-square" alt="SHAP" />
-        <img src="https://img.shields.io/badge/Insights-f97316?style=flat-square" alt="Insights" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## Current Direction
+## Repository Map
 
 <div align="center">
 
-| Building | Exploring | Improving |
+| Area | Repositories | What They Show |
 | --- | --- | --- |
-| GenAI apps for business workflows | RAG evaluation and evidence checks | Production-ready data products |
-| Automated analytics reporting | Decision-support dashboards | Scalable pipeline design |
-| AI-assisted data processing | Cloud-based analytics on GCP | Clear, measurable business impact |
+| GenAI and evaluation | [AI Credit Risk Analyzer](https://github.com/govanzz/AI-credit-risk-analyzer), [Legal RAG Evaluator](https://github.com/govanzz/legal-rag-evaluator) | OCR + LLM extraction, RAG comparison, LLM judging, groundedness and hallucination analysis |
+| ML engineering | [Flight Delay Prediction Pipeline](https://github.com/govanzz/flight-delay-prediction-pipeline), [MLE](https://github.com/govanzz/MLE) | Data ingestion, feature engineering, Dockerized environments, reproducible ML workflows |
+| Applied analytics | [NYC Property LightGBM](https://github.com/govanzz/AML-CS610-NYC-Property-LightGBM), [COFINFAD Analytics](https://github.com/govanzz/isss608-group10-project) | Predictive modeling, segmentation, visual analytics, explainable insights |
+| Practice systems | [DSA Flashcards](https://github.com/govanzz/dsa-flashcards), [NeetCode Submissions](https://github.com/govanzz/neetcode-submissions) | Product thinking, spaced repetition, coding practice, local-to-production app design |
 
 </div>
 
 ---
 
+## What I Care About
+
+- Building AI systems that are **useful, inspectable, and grounded in evidence**
+- Designing evaluation loops before scaling GenAI workflows
+- Turning notebooks and scripts into reliable apps, dashboards, and pipelines
+- Using automation carefully, especially where humans still need judgment
+
+---
+
 <div align="center">
 
-<b>Thanks for visiting.</b>
+<b>Currently exploring AI agents for analyst workflows: tool use, retrieval, evaluation, and human-in-the-loop decision support.</b>
 
 <br />
 <br />
