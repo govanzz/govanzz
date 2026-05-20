@@ -28,7 +28,7 @@
 
 I build **AI and analytics systems** that turn messy documents, operational data, and business questions into usable decision-support products. My current work sits at the intersection of **GenAI applications, RAG evaluation, ML/data pipelines, visual analytics, and workflow automation**.
 
-I am especially interested in **AI agents for real work**: systems that can retrieve evidence, use tools, check their own outputs, and hand analysts a traceable result rather than a black-box answer. My repositories show that direction through legal RAG evaluation, OCR + LLM document processing, financial analytics, ML engineering, and applied data products.
+I am especially interested in **AI agents for real work**: systems that can retrieve evidence, use tools, check their own outputs, and hand analysts a traceable result rather than a black-box answer. My repositories show that direction through website-grounded RAG assistants, legal RAG evaluation, OCR + LLM document processing, financial analytics, ML engineering, and applied data products.
 
 ---
 
@@ -62,6 +62,18 @@ I am especially interested in **AI agents for real work**: systems that can retr
       </p>
     </td>
     <td width="50%">
+      <h3><a href="https://github.com/govanzz/RAG-Chatbot-Agent">RAG Chatbot Agent</a></h3>
+      <p>Local-first Streamlit assistant that retrieves official Mandai website content with FAISS, answers with Ollama, and keeps responses grounded with citations and insufficient-context handling.</p>
+      <p>
+        <img src="https://img.shields.io/badge/RAG-0f766e?style=flat-square" alt="RAG" />
+        <img src="https://img.shields.io/badge/FAISS-2563eb?style=flat-square" alt="FAISS" />
+        <img src="https://img.shields.io/badge/Ollama-111827?style=flat-square" alt="Ollama" />
+        <img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square" alt="Streamlit" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3><a href="https://github.com/govanzz/legal-rag-evaluator">Legal RAG Evaluator</a></h3>
       <p>Evaluation dashboard for comparing legal QA pipelines using LLM-as-a-judge scoring across correctness, completeness, groundedness, hallucination, and latency.</p>
       <p>
@@ -71,8 +83,6 @@ I am especially interested in **AI agents for real work**: systems that can retr
         <img src="https://img.shields.io/badge/Plotly-3f4f75?style=flat-square" alt="Plotly" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3><a href="https://github.com/govanzz/flight-delay-prediction-pipeline">Flight Delay Prediction Pipeline</a></h3>
       <p>Machine learning engineering project with a medallion-style pipeline for flight operations and hourly weather data, plus baseline delay-risk scoring.</p>
@@ -81,16 +91,6 @@ I am especially interested in **AI agents for real work**: systems that can retr
         <img src="https://img.shields.io/badge/PySpark-e25a1c?style=flat-square" alt="PySpark" />
         <img src="https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square" alt="scikit-learn" />
         <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square" alt="Docker" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/govanzz/AML-CS610-NYC-Property-LightGBM">NYC Property Valuation</a></h3>
-      <p>LightGBM regression project for residential property valuation, over/under-valuation analysis, feature engineering, and interpretability with SHAP.</p>
-      <p>
-        <img src="https://img.shields.io/badge/LightGBM-2563eb?style=flat-square" alt="LightGBM" />
-        <img src="https://img.shields.io/badge/SHAP-10b981?style=flat-square" alt="SHAP" />
-        <img src="https://img.shields.io/badge/Regression-f97316?style=flat-square" alt="Regression" />
-        <img src="https://img.shields.io/badge/Outlier%20Analysis-7c3aed?style=flat-square" alt="Outlier analysis" />
       </p>
     </td>
   </tr>
@@ -152,7 +152,7 @@ I am especially interested in **AI agents for real work**: systems that can retr
 
 | Area | Repositories | What They Show |
 | --- | --- | --- |
-| GenAI and evaluation | [AI Credit Risk Analyzer](https://github.com/govanzz/AI-credit-risk-analyzer), [Legal RAG Evaluator](https://github.com/govanzz/legal-rag-evaluator) | OCR + LLM extraction, RAG comparison, LLM judging, groundedness and hallucination analysis |
+| GenAI and evaluation | [AI Credit Risk Analyzer](https://github.com/govanzz/AI-credit-risk-analyzer), [RAG Chatbot Agent](https://github.com/govanzz/RAG-Chatbot-Agent), [Legal RAG Evaluator](https://github.com/govanzz/legal-rag-evaluator) | OCR + LLM extraction, website-grounded retrieval, RAG comparison, LLM judging, groundedness and hallucination analysis |
 | ML engineering | [Flight Delay Prediction Pipeline](https://github.com/govanzz/flight-delay-prediction-pipeline), [MLE](https://github.com/govanzz/MLE) | Data ingestion, feature engineering, Dockerized environments, reproducible ML workflows |
 | Applied analytics | [NYC Property LightGBM](https://github.com/govanzz/AML-CS610-NYC-Property-LightGBM), [COFINFAD Analytics](https://github.com/govanzz/isss608-group10-project) | Predictive modeling, segmentation, visual analytics, explainable insights |
 | Practice systems | [DSA Flashcards](https://github.com/govanzz/dsa-flashcards), [NeetCode Submissions](https://github.com/govanzz/neetcode-submissions) | Product thinking, spaced repetition, coding practice, local-to-production app design |
